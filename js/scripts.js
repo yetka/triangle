@@ -5,7 +5,7 @@ $(document).ready(function() {
     var side2 = parseFloat($("input#side2").val());
     var side3 = parseFloat($("input#side3").val());
 
-    $(".results div").hide();
+    $(".results").hide();
 
     if (side1 && side2 && side3) {
       if (side1===side2 && side1===side3 && side3===side2) {
